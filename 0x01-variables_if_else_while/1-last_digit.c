@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**                                                                              *main - Determine if a random number is greater thand 5,less than 6 not 0,is 0
+ *Return: 0 on success 
+ */  
 int main(void)
 {
   int n;
