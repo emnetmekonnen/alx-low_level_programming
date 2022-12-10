@@ -13,13 +13,12 @@ if(n > 5)
 {
   printf("%d is %s\n", n, "is greater than 5");
 }
-else if(n==0)
-{
- printf("%d is %s\n", n, "and is 0");
-}
 else if(n < 0 && n!=0)
 {
- printf("%d is %s\n", n, "and is less than 6 and not 0");
-}
+  printf("%d is %s\n", n, "and is less than 6 and not 0");
+}  
+else                                                                    
+{  
+ printf("%d is %s\n", n, "and is 0");                                           }
 return (0);
 }
