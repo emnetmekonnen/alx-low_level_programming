@@ -1,44 +1,20 @@
 #include <stdio.h>
 
-
-
 /**
-* main - Prints all possible combinations of single-digit numbers.
+* main - Prints the alphabet in lowercase, and then in uppercase.
 * Return: Always 0 (Success)
-* */
-
+*/
 int main(void)
-
 {
+char letter;
 
-int num;
+for (letter = 'a'; letter <= 'z'; letter++)
+putchar(letter);
 
-
-
-for (num = 0; num <= 9; num++)
-
-{
-
-putchar((num % 10) + '0');
-
-if (num == 9)
-
-continue;
-
-
-
-putchar(',');
-
-putchar(' ');
-
-}
-
-
+for (letter = 'A'; letter <= 'Z'; letter++)
+putchar(letter);
 
 putchar('\n');
 
-
-
 return (0);
-
 }
