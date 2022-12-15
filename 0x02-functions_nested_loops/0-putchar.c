@@ -1,18 +1,18 @@
-#include "main.h"
+#include"main.h"
 /**
- * main - Program that prints _putchar, followed by a new line.
- * Return:0 on (success)
- */
+*main-Programthatprints_putchar,followedbyanewline.
+*Return:0on(success)
+*/
 
-int main()
+intmain()
 {
-char chr[8] = "_putchar";
-int i;
+charchr[8]="_putchar";
+inti;
 for(i=0;i<8;i++)
 {
 _putchar(chr[i]);
 }
 _putchar('\n');
 
-return (0);
+return(0);
 }
