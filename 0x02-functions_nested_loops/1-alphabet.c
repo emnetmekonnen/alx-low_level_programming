@@ -1,7 +1,10 @@
 #include "main.h"
 /**
 * Function that prints the alphabet, in lowercase, followed by a new line.
+*
 */
+
+/* function that print alphabet  */
 void print_alphabet(void)
 {
 char letter;
