@@ -1,13 +1,12 @@
-#include"main.h"
+#include "main.h"
 /**
 *main-Programthatprints_putchar,followedbyanewline.
 *Return:0on(success)
 */
-
-intmain()
+int main()
 {
 charchr[8]="_putchar";
-inti;
+int i;
 for(i=0;i<8;i++)
 {
 _putchar(chr[i]);
