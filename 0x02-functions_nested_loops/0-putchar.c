@@ -3,7 +3,7 @@
 *main-Program that prints _putchar,followed by a newline.
 *Return:0 on(success)
 */
-int main ( void )
+int main (void)
 {
 char chr[8] = "_putchar";
 int i;
