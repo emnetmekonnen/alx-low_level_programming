@@ -7,7 +7,7 @@
 
 int main()
 {
-char chr[7] = "_putchar"
+char chr[7] = "_putchar";
 int i;
 for(i=0;i<7;i++)
 {
