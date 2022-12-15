@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * Function that prints the alphabet, in lowercase, followed by a new line.
  * Return:0 on(success)
