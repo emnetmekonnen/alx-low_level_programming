@@ -1,11 +1,11 @@
 #include "main.h"
 /**
-*main-Programthatprints_putchar,followedbyanewline.
-*Return:0on(success)
+*main-Program that prints _putchar,followed by a newline.
+*Return:0 on(success)
 */
 int main()
 {
-charchr[8]="_putchar";
+char chr[8]="_putchar";
 int i;
 for(i=0;i<8;i++)
 {
