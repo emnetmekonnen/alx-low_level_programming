@@ -3,7 +3,7 @@
 
 /**
 * _islower - function that checks for lowercase character.
-* parameter: member c
+* @c: The input character to check
 * Return: 1 or 0
 */
 
