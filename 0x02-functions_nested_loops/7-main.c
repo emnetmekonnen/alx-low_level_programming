@@ -1,35 +1,22 @@
 #include "main.h"
 
-
-
 /**
- *
- *  * main - check the code
- *
- *   *
- *
- *    * Return: Always 0.
- *
- *     */
+*
+* _abs - function that computes the absolute value of an integer.
+* @x: The input number to check
+* Return: int.
+*/
 
-int main(void)
-
+int _abs(int x)
 {
-
-	    int r;
-
-
-
-	        print_last_digit(98);
-
-		    print_last_digit(0);
-
-		        r = print_last_digit(-1024);
-
-			    _putchar('0' + r);
-
-			        _putchar('\n');
-
-				    return (0);
+if (x < 0)
+{
+x = x * (-1);
+return (x);
+}
+else
+{
+return (x);
+}
 
 }
