@@ -3,9 +3,9 @@
 void jack_bauer(void)
 {
 
-int x ;
+int x;
 
-int j ;
+int j;
 
 for (x = 0; x <= 23; x++)
 {
