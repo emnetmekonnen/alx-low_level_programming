@@ -7,9 +7,9 @@ int x ;
 
 int j ;
 
-for(x=0; x <= 23; x++)
+for (x = 0; x <= 23; x++)
 {
-for(j=0; j <= 59; j++)
+for (j = 0; j <= 59; j++)
 {
 _putchar((x / 10) + '0');
 
